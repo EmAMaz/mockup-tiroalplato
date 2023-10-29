@@ -1,0 +1,227 @@
+<section class="section__main">
+  <div class="container__menu-main">
+    <svg (click)="activeMenu()" width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 7a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1zm1 4a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2H3z" fill="#212863"></path></g></svg>
+  </div>
+  <div class="section__navbar" [ngClass]="{'navbar-scroll':sccrollToBottom && navbarActive}">
+    <div class="section__navbar-logo-menu" *ngIf="sccrollToBottom && navbarActive">
+      <img class="section__navbar-logo-image" src=".././assets/banner-main/logo-main.png" alt="">
+    </div>
+      <ul class="section__navbar-enlaces" *ngIf="navbarActive">
+          <li ><a class="enlaces__href" href="#usuarios">Caracteristicas</a></li>
+          <li ><a class="enlaces__href" href="#usuarios">Tiradores</a></li>
+          <li ><a class="enlaces__href" href="#canchas">Campos de Tiro</a></li>
+          <li ><a class="enlaces__href" href="#precios">Precios</a></li>
+          <li ><a class="enlaces__href" href="#contacto">Contacto</a></li>
+      </ul>
+  </div>
+  <div class="section__men-shoter">
+  </div>
+  <div class="section__text">
+      <div class="section__text-container">
+          <div class="section__text-container-logo">
+              <img src=".././assets/banner-main/logo-main.png" alt="">
+          </div>
+          <div class="section__text-titulo-subtitulo">
+              <h1>Potencia tu pasión por el tiro al plato con ShootingPro!</h1>
+              <p>
+                  La APP para gestionar campos de tiro y mantener un registro preciso de 
+                  tus sesiones. ¡Apunta, dispara y organiza con facilidad! 
+                  <br>
+                  <br>
+                  Descarga ShootingPro hoy mismo y lleva tus habilidades al siguiente nivel.
+              </p>
+          </div>
+          <div class="section__buttons-main">
+              <img src=".././assets/banner-main/btn-main-android.png" alt="">
+              <img src=".././assets/banner-main/btn-main-apple.png" alt="">
+          </div>
+          <div >
+              <img src=".././assets/banner-main/cuadrados-main.png" alt="">
+          </div>
+      </div>
+  </div>
+</section>
+<section class="section__one-banner" id="usuarios">
+  <div class="section__one-banner-left">
+      <img class="image__rayas" src="../assets/rayas.png" alt="">
+      <img class="image__rayas-logo" src="../assets/logo-rayas.png" alt="">
+      <div class="section_one_banner-buttons">
+          <div class="titulo__btn">
+              <h3>App de usuario gratis en:</h3>
+          </div>
+          <img class="image__btn" src="../assets/btnAndoid.png" alt="">
+          <img class="image__btn" src="../assets/btnIos.png" alt="">
+      </div>
+  </div>
+  <div class="section__one-banner-container">
+      <div class="section__banner-container-title">
+          <h3>Mucho más que una App de tiro!</h3>
+          <p>Desde el perfil de ShootingPro Company podrás tener el control de todos los socios del club, 
+          lanzar comunicaciones globales e independientes, llevar el control de los horarios aperturas y 
+          cierres del campo así como gestionar las reservas de cada una de las canchas. 
+          </p>
+      </div>
+      
+      <div class="section__banner-container-card">
+          <div class="section__banner-container-card-unico">
+              <div class="section__banner-container-card-unico-image">
+                      <img src=".././assets/image1.png" alt="">
+              </div>
+              <div class="section__banner-container-card-unico-descrip">
+                      <h5>Elije la cancha que vas</h5>
+                      <p>
+                      Los datos de la cancha siempre a mano
+                      telefonos, redes, direccion y tipos de juegos.
+                      </p>
+              </div>
+          </div>
+  
+          <div class="section__banner-container-card-unico">
+              <div class="section__banner-container-card-unico-image">
+                      <img src=".././assets/image2.png" alt="">
+              </div>
+              <div class="section__banner-container-card-unico-descrip">
+                      <h5>Reservas</h5>
+                      <p>
+                          Podes reservar hora y dia para 
+                          la cancha que desees y ver quienes 
+                          asisten contigo ese dia!                        
+                      </p>
+              </div>
+          </div>
+  
+          <div class="section__banner-container-card-unico">
+              <div class="section__banner-container-card-unico-image">
+                      <img src=".././assets/image3.png" alt="">
+              </div>
+              <div class="section__banner-container-card-unico-descrip">
+                      <h5>Simple, Fácil y Seguro</h5>
+                      <p>
+                          Nunca fue tan facil llevar el registro de 
+                          avances y reservas de tu cancha de tiro!
+                      </p>
+              </div>
+          </div>
+  
+          <div class="section__banner-container-card-unico">
+              <div class="section__banner-container-card-unico-image">
+                      <img src=".././assets/image4.png" alt="">
+              </div>
+              <div class="section__banner-container-card-unico-descrip">
+                      <h5>Compara tus Mejoras</h5>
+                      <p>
+                          Podes comparar tus juegos y ver tu evolucion
+                          como tirador                        
+                      </p>
+              </div>
+          </div>
+  
+      </div>
+  </div>
+  <div class="section__banner-container-phone">
+      <img src="../assets/phone.png" alt="">
+  </div>
+</section>
+<section class="section__two-banner" id="canchas"> 
+  <div class="section__two-text">
+      <h3>ShootingPro Company!</h3>
+      <p>Desde el perfil de ShootingPro Company podrás tener el control de todos los socios del club, 
+          lanzar comunicaciones globales e independientes, llevar el control de los horarios aperturas 
+          y cierres del campo así como gestionar las reservas de cada una de las canchas. !</p>
+  </div>
+  <div class="section__two-container-cards">
+      <div class="section__two-container__card">
+          <img class="card__image" src="../assets/shotting-canchas/image1.png" alt="">
+          <h4 class="card__titulo">Genere Más Ingresos!</h4>
+          <p class="card__description">Genere más ingresos con nuestra app de canchas</p>
+      </div>
+      <div class="section__two-container__card">
+          <img class="card__image" src="../assets/shotting-canchas/image2.png" alt="">
+          <h4 class="card__titulo">Genere Más Ingresos!</h4>
+          <p class="card__description">Genere más ingresos con nuestra app de canchas</p>
+      </div>
+      <div class="section__two-container__card">
+          <img class="card__image" src="../assets/shotting-canchas/image3.png" alt="">
+          <h4 class="card__titulo">Genere Más Ingresos!</h4>
+          <p class="card__description">Genere más ingresos con nuestra app de canchas</p>
+      </div>
+      <div class="section__two-container__card">
+          <img class="card__image" src="../assets/shotting-canchas/image4.png" alt="">
+          <h4 class="card__titulo">Genere Más Ingresos!</h4>
+          <p class="card__description">Genere más ingresos con nuestra app de canchas</p>
+      </div>
+  </div>
+  <div class="section__two-end">
+      <div class="section__two-end-container">
+          <div class="section__two-end-container-logocanchas">
+              <img src="../assets/shotting-canchas/btnLogo.png" alt="">
+          </div>
+          <div class="section__two-container-final">
+              <h4>ShootingPro Company!</h4>
+              <p>Descarga la app y adheri el tuyo</p>
+              <div class="section__two-containerbuttons" id="contacto">
+                  <img class="image__btn" src="../assets/btnAndoid.png" alt="">
+                  <img class="image__btn" src="../assets/btnIos.png" alt="">
+              </div>
+          </div>
+          
+      </div>
+  </div>
+</section>
+<section class="section__three-banner">
+  <div class="section__three-banner-titulo">
+    <img class="image__contacto-titulo" src="../assets/contacto/logo-titulo.png" alt="">
+    <h3>Contáctanos!</h3>
+  </div>
+  <div >
+    <form action="" class="section__three-banner-formulario">
+      <input type="text" placeholder="Su Nombre">
+      <input type="text" placeholder="Su Email">
+      <input type="text" placeholder="Su Movil">
+      <input type="text" placeholder="Como Nos Conociste?">
+      <input type="text" placeholder="Escriba su Mensaje">
+      <div class="section__three-banner-formulario-btn"  id="precios">
+        <button>ENVIAR</button>
+      </div>
+    </form>
+  </div>
+</section>
+<section class="section__four-banner">
+  <div class="section__four-banner-container">
+    <div class="section__four-banner-container-container-titulo">
+      <h5 class="titulo__promocion-lanzamiento">Promoción Lanzamiento!</h5>
+    </div>
+
+    <div class="section__four-banner-container-container-card">
+      <div class="card__option">
+        <h5 class="card__option-title">50 Socios - 1 Cancha</h5>
+        <p class="card__option-price">$ 120</p>
+      </div>
+      <div class="card__option">
+        <h5 class="card__option-title">100 Socios - hasta 2 canchas</h5>
+        <p class="card__option-price">$ 360</p>
+      </div>
+      <div class="card__option">
+        <img class="card__option-cinta" src="../assets/promocion/cinta-button.png" alt="">
+        <h5 class="card__option-title">Socios & Canchas ilimitadas</h5>
+        <p class="card__option-price">$ 1200</p>
+      </div>
+    </div>
+
+    <div class="section__four-banner-container-container-subbuton">
+      <div class="container__subbuton">
+        <ul>
+          <li><img src="../assets/promocion/star.png" alt="">  Accede sin limites - Soporte 24/7</li>
+          <li><img src="../assets/promocion/star.png" alt="">  Garantia y Pago Seguro Paypal</li>
+        </ul>
+        <img class="paypal__image" src="../assets/promocion/paypal.png" alt="">
+      </div>
+    </div>
+    <div class="section__four-banner-container-container-textBottom">
+      <p>* La app de socios es 100% gratuita, solo pagaras la membrasia acorde a los socios desees tener!</p>
+    </div>
+  </div>
+</section>
+<section>
+  <app-footer></app-footer>
+</section>
