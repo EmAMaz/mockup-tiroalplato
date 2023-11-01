@@ -209,11 +209,10 @@
         .section__two-container__card{
             border: 2px solid #7b5a97;
             text-align: center;
-            max-width: min-content;
+            max-width: 200px;
             padding: 20px;
             margin: 20px;
             .card__titulo{
-                width: max-content;
                 margin: 0 auto;
                 color: #fff;
                 font-size: 20px;
@@ -360,7 +359,7 @@
             padding-top: 4em;
             flex-wrap: wrap;
             .card__option{
-                padding: 0.5em 2em 2.8em 2em;
+                padding: 1.5em 2em 2.8em 2em;
                 text-align: center;
                 border-radius: 26px;
                 margin: 0px 30px;
@@ -378,7 +377,7 @@
                     font-family: system-ui;
                     font-weight: bold;
                     background: transparent;
-                    font-size: 3em;
+                    font-size: 2.5em;
                     color: #ff0;
                 }
             }
