@@ -2,8 +2,8 @@
   <div class="container__menu-main">
     <svg (click)="activeMenu()" width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 7a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1zm1 4a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2H3z" fill="#212863"></path></g></svg>
   </div>
-  <div class="section__navbar" [ngClass]="{'navbar-scroll':sccrollToBottom && navbarActive}">
-    <div class="section__navbar-logo-menu" *ngIf="sccrollToBottom && navbarActive">
+  <div class="section__navbar "  [ngClass]="{'navbar-scroll':sccrollToBottom && navbarActive}">
+    <div class="section__navbar-logo-menu"  >
       <img class="section__navbar-logo-image" src=".././assets/banner-main/logo-main.png" alt="">
     </div>
       <ul class="section__navbar-enlaces" *ngIf="navbarActive">
@@ -83,7 +83,7 @@
               <div class="section__banner-container-card-unico-descrip">
                       <h5>Reservas</h5>
                       <p>
-                          Podes reservar hora y dia para 
+                          Puedes reservar hora y dia para 
                           la cancha que desees y ver quienes 
                           asisten contigo ese dia!                        
                       </p>
@@ -110,7 +110,7 @@
               <div class="section__banner-container-card-unico-descrip">
                       <h5>Compara tus Mejoras</h5>
                       <p>
-                          Podes comparar tus juegos y ver tu evolucion
+                          Puedes comparar tus juegos y ver tu evolucion
                           como tirador                        
                       </p>
               </div>
@@ -164,7 +164,7 @@
           <div class="section__two-container-final">
               <h4>ShootingPro Company!</h4>
               <p>Descarga la App y registra tu campo de tiro</p>
-              <div class="section__two-containerbuttons" id="contacto">
+              <div class="section__two-containerbuttons" >
                   <img class="image__btn" src="../assets/btnAndoid.png" alt="">
                   <img class="image__btn" src="../assets/btnIos.png" alt="">
               </div>
@@ -173,7 +173,7 @@
       </div>
   </div>
 </section>
-<section class="section__three-banner">
+<section class="section__three-banner" id="contacto">
   <div class="section__three-banner-titulo">
     <img class="image__contacto-titulo" src="../assets/contacto/logo-titulo.png" alt="">
     <h3>Contáctanos!</h3>

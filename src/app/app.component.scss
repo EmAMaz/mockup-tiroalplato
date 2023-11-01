@@ -14,6 +14,7 @@
         z-index: 999;
         transition: all .6s ease-out;
         .section__navbar-logo-menu{
+            display: none;
             position: absolute;
             left: 0.5em;
             padding: 1.5em;
@@ -499,13 +500,14 @@
         }
         .section__navbar{
             margin-right: 0; 
+            position: absolute;
             .section__navbar-enlaces{
                 flex-direction: column;
                 width: 100%;
                 padding: 0;
                 li{
                     margin: 0;
-                    padding: 1.2em 2em;
+                    padding: 2em 2em;
                     letter-spacing: 2px;
                     background: #1f285adb;
                     backdrop-filter: blur(3px);
@@ -689,6 +691,7 @@
         }
         .section__navbar{
             margin-right: 0; 
+            position: absolute;
             .section__navbar-enlaces{
                 flex-direction: column;
                 width: 100%;
@@ -846,6 +849,7 @@
         }
         .section__navbar{
             margin-right: 0; 
+            position: absolute;
             .section__navbar-enlaces{
                 flex-direction: column;
                 width: 100%;
@@ -958,6 +962,7 @@
         }
         .section__navbar{
             margin-right: 0; 
+            position: absolute;
             .section__navbar-enlaces{
                 flex-direction: column;
                 width: 100%;
